@@ -1,7 +1,7 @@
 # Análise de Engajamento e Desempenho de E-mail Marketing
 
 ## Visão Geral do Projeto
-Este projeto de análise de dados cruza informações de sessões de usuários com interações de campanhas de e-mail para avaliar o engajamento. [cite_start]O objetivo principal é consolidar métricas de funil (envio, abertura e visita) e identificar os países com maior volume de contas e maior número de e-mails disparados, filtrando o Top 10 global para análises mais aprofundadas.
+Este projeto de análise de dados cruza informações de sessões de usuários com interações de campanhas de e-mail para avaliar o engajamento. O objetivo principal é consolidar métricas de funil (envio, abertura e visita) e identificar os países com maior volume de contas e maior número de e-mails disparados, filtrando o Top 10 global para análises mais aprofundadas.
 
 ## Ferramentas Utilizadas
 * **Linguagem:** SQL.
@@ -27,5 +27,7 @@ Para garantir a organização e performance da leitura dos dados, o script foi m
 
 Os resultados processados pelo BigQuery alimentam um painel interativo no **Looker Studio**, permitindo o acompanhamento dinâmico das métricas. 
 
-* [Insira aqui a Imagem/Screenshot do Dashboard do Looker Studio]
-* [Insira aqui a Imagem/Screenshot dos resultados retornados no BigQuery]
+* <img width="1689" height="1248" alt="Captura de tela 2026-01-19 104222" src="https://github.com/user-attachments/assets/b5680e2d-a0f8-41e3-aac7-29b579e308fb" />
+* <img width="1245" height="1188" alt="Captura de tela 2026-01-19 102314" src="https://github.com/user-attachments/assets/c4e12d82-0ed8-48ad-94d2-e30195bb32d3" />
+
+
