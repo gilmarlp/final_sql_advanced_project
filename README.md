@@ -23,7 +23,15 @@ Para garantir a organização e performance da leitura dos dados, o script foi m
 5. **Filtro Final:** A consulta principal retorna apenas os registros onde o país está no Top 10 em volume de contas (`rank_total_country_account_cnt <= 10`) ou no Top 10 em envios de mensagens (`rank_total_country_sent_cnt <= 10`), ordenados cronologicamente e por ranking.
 
 ## Dashboard e Resultados
-*(Adicione aqui um parágrafo resumindo as 2 ou 3 principais conclusões que você obteve ao olhar para os dados)*
+
+**Principais Insights da Análise:**
+* **Concentração de Mercado:** O grande foco das campanhas de e-mail marketing está nos Estados Unidos, região que também concentra o maior volume de contas criadas.
+* **Sazonalidade da Campanha:** Identificou-se um padrão temporário de envios concentrado entre os meses de novembro e fevereiro. Esse comportamento sugere uma estratégia sazonal, muito provavelmente voltada para as festas de final de ano e período de férias.
+
+**Visualizações Desenvolvidas:**
+Para facilitar o acompanhamento dessas métricas, o dashboard foi estruturado destacando:
+* **Ranking Global:** Uma visão dos 10 principais países (Top 10), cruzando o volume de envios com a quantidade de contas criadas.
+* **Análise Temporal:** Um gráfico de linha demonstrando a evolução e o volume de e-mails disparados ao longo do tempo.
 
 Os resultados processados pelo BigQuery alimentam um painel interativo no **Looker Studio**, permitindo o acompanhamento dinâmico das métricas. 
 
